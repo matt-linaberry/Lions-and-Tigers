@@ -15,4 +15,11 @@ struct Tiger {
     var breed = ""
     var image = UIImage(named:"")
     
+    // instance functions
+    
+    func chuff() {
+        // chuff:  a tiger's version of purrrrrrr
+        println("tiger chuff chuff")
+    }
+    
 }
