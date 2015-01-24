@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         var myTiger = Tiger()  // instantiate a struct called Tiger
+        
         myTiger.name = "Tigger"
         myTiger.breed = "Bengal"
         myTiger.age = 3
@@ -59,6 +60,20 @@ class ViewController: UIViewController {
         
         myTiger.chuffANumberOfTimes(3)
         secondTiger.chuffANumberOfTimes(2)
+        
+        var lion = Lion()
+        lion.age = 4
+        lion.isAlphaMale = false
+        lion.image = UIImage(named: "Lion.jpg")
+        lion.name = "Mufasa"
+        lion.subspecies = "West African"
+        
+        var lioness = Lion()
+        lioness.age = 3
+        lioness.isAlphaMale = false
+        lioness.image = UIImage(named: "Lioness.jpeg")
+        lioness.name = "Sarabi"
+        lioness.subspecies = "Barbary"
         
     }
 
