@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9916C12A1A75A7F300598C79 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9916C1291A75A7F300598C79 /* LionCub.swift */; };
 		997C6AED1A744E7C006C3028 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C6AEC1A744E7C006C3028 /* Lion.swift */; };
 		99C4B94B1A6AD54A0080B24E /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C4B94A1A6AD54A0080B24E /* Tiger.swift */; };
 		99C4B9571A6AD7D30080B24E /* BengalTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C4B94F1A6AD7D30080B24E /* BengalTiger.jpg */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9916C1291A75A7F300598C79 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LionCub.swift; path = LionsAndTigersAssets/LionCub.swift; sourceTree = "<group>"; };
 		997C6AEC1A744E7C006C3028 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
 		99C4B94A1A6AD54A0080B24E /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 		99C4B94F1A6AD7D30080B24E /* BengalTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BengalTiger.jpg; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				A3AD77431A69C1210047F535 /* ViewController.swift */,
 				99C4B94A1A6AD54A0080B24E /* Tiger.swift */,
 				997C6AEC1A744E7C006C3028 /* Lion.swift */,
+				9916C1291A75A7F300598C79 /* LionCub.swift */,
 				A3AD77451A69C1210047F535 /* Main.storyboard */,
 				A3AD77481A69C1210047F535 /* Images.xcassets */,
 				A3AD774A1A69C1210047F535 /* LaunchScreen.xib */,
@@ -261,6 +264,7 @@
 				A3AD77441A69C1210047F535 /* ViewController.swift in Sources */,
 				99C4B94B1A6AD54A0080B24E /* Tiger.swift in Sources */,
 				A3AD77421A69C1210047F535 /* AppDelegate.swift in Sources */,
+				9916C12A1A75A7F300598C79 /* LionCub.swift in Sources */,
 				997C6AED1A744E7C006C3028 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
